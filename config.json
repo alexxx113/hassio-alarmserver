@@ -11,7 +11,7 @@
         "i386"
     ],
     "url": "https://github.com/Alexxx113/alarmserver",
-    "image": "toxuin/alarmserver",
+    "image": "Alexxx113/alarmserver",
     "startup": "before",
     "boot": "auto",
     "options": {},
