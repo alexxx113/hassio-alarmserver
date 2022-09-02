@@ -1,7 +1,7 @@
 {
     "name": "Alarm_Server",
     "version": "0.1",
-    "slug": "Alarm_Server",
+    "slug": "alarm_Server",
     "description": "Alarm Server for XMEye and Hikvision",
     "arch": [
         "armhf",
@@ -11,7 +11,7 @@
         "arm64" ,
         "i386"
     ],
-    "url": "https://github.com/Alexxx113/alarmserver",
+    "url": "https://github.com/alexxx113/alarmserver",
 
 
     "startup": "before",
