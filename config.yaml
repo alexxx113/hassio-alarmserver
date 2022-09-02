@@ -3,9 +3,21 @@ description: "My first real add-on!"
 version: "1.0.0"
 slug: "alarmserver"
 init: false
+
+
+
+
+
+
+
+description: >-
+  "Long description"
 arch:
-  - aarch64
   - amd64
-  - armhf
-  - armv7
-  - i386
+url: "website with more information about add-on (e.g., a forum thread for support)"
+ports:
+  123/tcp: 15002
+map:
+  - config:rw
+  - ssl
+image: repo/{arch}-my-custom-addon
