@@ -11,7 +11,7 @@
         "arm64" ,
         "i386"
     ],
-    "url": "https://github.com/alexxx113/alarmserver",
+    "url": "https://github.com/alexxx113/hassio-alarmserver",
 
 
     "startup": "before",
