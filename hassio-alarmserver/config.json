@@ -10,7 +10,7 @@
         "amd64",
         "i386"
     ],
-    "url": "https://github.com/alexxx113/blob/master/hassio-alarmserver",
+    "url": "https://github.com/alexxx113/hassio-alarmserver/blob/master/hassio-alarmserver",
     "image": "hassio-alarmserver/hassio-alarmserver-{arch}",
     "startup": "before",
     "boot": "auto",
