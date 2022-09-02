@@ -1,3 +1,5 @@
+ARG BUILD_FROM
+FROM $BUILD_FROM
 FROM golang:1.18-alpine AS build_base
 RUN apk add ca-certificates
 
