@@ -1,0 +1,22 @@
+{
+    "name": "Alarm_Server",
+    "version": "0.1",
+    "slug": "Alarm_Server",
+    "description": "Alarm Server for XMEye and Hikvision",
+    "arch": [
+        "armhf",
+        "armv7",
+        "aarch64",
+        "amd64",
+        "i386"
+    ],
+    "url": "https://github.com/Alexxx113/alarmserver",
+    "image": "toxuin/alarmserver",
+    "startup": "before",
+    "boot": "auto",
+    "options": {},
+    "schema": {},
+    "ports": {
+        "15002/tcp": 15002
+    }
+}
