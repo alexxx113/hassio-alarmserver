@@ -11,7 +11,7 @@
         "i386"
     ],
     "url": "https://github.com/alexxx113/hassio-alarmserver",
-    "image": "alexxx113/hassio-alarmserver-{arch}",
+    "image": "hassio-alarmserver-{arch}",
     "startup": "before",
     "boot": "auto",
     "options": {},
